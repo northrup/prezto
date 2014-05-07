@@ -12,3 +12,7 @@ fi
 
 # Customize to your needs...
 
+alias flushdns='dscacheutil -flushcache;sudo killall -HUP mDNSResponder'
+alias breakfast='screen /dev/cu.usbserial 9600'
+alias ec2ssh='ssh -i ~/.ssh/aws2014'
+
